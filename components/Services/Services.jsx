@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import style from "../../styles/Services.module.css";
 import Card from "./Card";
 import {
@@ -10,6 +10,7 @@ import {
   phoneIcon
 } from "../../Images";
 import Link from 'next/link';
+//import gsap from "gsap";
 
 const cards = [
     {
