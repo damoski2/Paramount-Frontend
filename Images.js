@@ -7,5 +7,6 @@ module.exports ={
     phoneIcon: 'https://res.cloudinary.com/oyindacodes/image/upload/v1656010435/Vector_1_gapacf.svg',
     playIcon: 'https://res.cloudinary.com/oyindacodes/image/upload/v1656010435/Vector_mfpjbo.svg',
     universityIcon: 'https://res.cloudinary.com/oyindacodes/image/upload/v1656010435/university_1_uetnin.svg',
-    communityIcon: 'https://res.cloudinary.com/oyindacodes/image/upload/v1656010433/online-community_1_ekqiyq.svg'
+    communityIcon: 'https://res.cloudinary.com/oyindacodes/image/upload/v1656010433/online-community_1_ekqiyq.svg',
+    pureArrowIcon: 'https://res.cloudinary.com/oyindacodes/image/upload/v1656066256/Vector_y0pd1r.svg'
 }
