@@ -5,6 +5,7 @@
     justify-content: space-between;
     color: #ffffff;
     padding: 24px 68px;
+    position: fixed;
 }
 
 .container ul{
