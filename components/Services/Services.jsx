@@ -48,8 +48,8 @@ const Services = () => {
       </div>
       <h1>Join a valuable resource built for decision makers</h1>
       <div className={style.card__div} >
-        {cards.map((card) => (
-            <Card {...card} />
+        {cards.map((card, index) => (
+            <Card {...card} key={index} />
         ))}
       </div>
       <div className={style.button__cnt}>
