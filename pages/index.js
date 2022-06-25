@@ -12,7 +12,7 @@ export default function Home() {
   const ref = useRef(null);
   const ref2 = useRef(null);
 
-  useEffect(() => {
+/*   useEffect(() => {
     const animation = gsap.to(ref2.current, {
       yPercent: 100,
     });
@@ -27,23 +27,7 @@ export default function Home() {
       animation: animation,
       end: "+=4000"
     });
-    /*  gsap.timeline({
-      // Replace this with the ScrollTrigger.create() syntax and it works 🤔
-      scrollTrigger: {
-        start: "top top",
-         end: '+=1000',
-        pin: true,
-        trigger: ref.current,
-        markers: true,
-      },
-    });
-
-    ScrollTrigger.create({
-      end: "+=1000",
-      pin: true,
-      trigger: ref2.current,
-    }); */
-  }, []);
+  }, []); */
 
   //Gsap Animations
   /*   const scrollTrigger = ScrollTrigger.create({
@@ -61,14 +45,14 @@ export default function Home() {
 
   return (
     <main>
-      <div id="home" ref={ref} style={{ height: "100vh" }}>
+      <div id="home" ref={ref} className='ref' style={{ height: "100vh" }}>
         <Carousel />
       </div>
-      <div id="about" ref={ref2}>
+      <div id="about" className='ref' ref={ref2}>
         <Metrics />
         <About />
       </div>
-      <div id="service">
+      <div id="service" className='ref' >
         <Services />
       </div>
     </main>
