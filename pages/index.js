@@ -45,14 +45,14 @@ export default function Home() {
 
   return (
     <main>
-      <div id="home" ref={ref} className='ref' style={{ height: "100vh" }}>
+      <div id="home">
         <Carousel />
       </div>
-      <div id="about" className='ref' ref={ref2}>
+      <div id="about">
         <Metrics />
         <About />
       </div>
-      <div id="service" className='ref' >
+      <div id="service">
         <Services />
       </div>
     </main>
